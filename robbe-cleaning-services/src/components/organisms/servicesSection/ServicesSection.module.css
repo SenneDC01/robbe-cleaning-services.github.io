@@ -1,0 +1,16 @@
+.services h2 {
+    margin-bottom: 1.3rem;
+}
+
+.services {
+    padding: 3rem 1.3rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.3rem;
+    justify-items: center;
+}
