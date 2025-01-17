@@ -6,7 +6,7 @@ export default function ServicesSection() {
   return (
     <section className={styles.services}>
       <h2>Diensten</h2>
-      <div className={styles.grid}>
+      <div className={styles.container}>
         <ServiceCard
           title="Residentiële Schoonmaak"
           description="Vlekkeloze huizen, stressvrij leven."

@@ -6,11 +6,18 @@
     padding: 3rem 1.3rem;
     background-color: #f9f9f9;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.3rem;
-    justify-items: center;
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
