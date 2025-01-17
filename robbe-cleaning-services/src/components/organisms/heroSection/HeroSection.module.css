@@ -3,13 +3,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    background: url('/logo.jfif') no-repeat center center/cover;
     text-align: center;
-    color: #000000;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    background-color: #fbffff;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    gap: 5vh;
 }
 
-.subtitle {
-    font-size: 1.2em;
-    margin-bottom: 20px;
+.button {
+    margin: 2rem;
+    padding: 1rem;
 }

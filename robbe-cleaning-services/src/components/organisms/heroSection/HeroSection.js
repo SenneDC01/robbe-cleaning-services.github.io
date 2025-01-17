@@ -1,14 +1,19 @@
 import React from "react";
 import styles from "./HeroSection.module.css";
 import Button from "@/components/atoms/button/Button";
-import Heading from "@/components/atoms/heading/Heading";
+import Image from "next/image";
 
 export default function HeroSection() {
   return (
     <section className={styles.hero}>
-      <Heading level={1}>Robbe Cleaning Services</Heading>
-      <p className={styles.subtitle}>Making your home or office sparkle!</p>
-      <Button>Contact Us</Button>
+      <Image
+        src="/logo.jpg"
+        alt="Cleaning service"
+        layout="intrinsic"
+        width={800}
+        height={600}
+      />
+      <Button className={styles.button}>Contact</Button>
     </section>
   );
 }
