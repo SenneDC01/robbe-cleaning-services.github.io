@@ -1,0 +1,38 @@
+.detail {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.detail > * {
+    flex: 1 1 45%; /* This ensures each child takes up about half the space */
+}
+
+.detail h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.detail p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.5;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.image {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text {
+    width: 50%;
+}

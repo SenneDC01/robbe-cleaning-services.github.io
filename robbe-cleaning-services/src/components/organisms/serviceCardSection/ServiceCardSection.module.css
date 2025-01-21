@@ -1,8 +1,4 @@
-.services h2 {
-    margin-bottom: 1.3rem;
-}
-
-.services {
+.cardSection {
     padding: 3rem 1.3rem;
     background-color: #f9f9f9;
     text-align: center;
@@ -11,6 +7,7 @@
     justify-content: center;
     max-width: 1920px;
     margin: 0 auto;
+    gap: 2rem;
 }
 
 .container {

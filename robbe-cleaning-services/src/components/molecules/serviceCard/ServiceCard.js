@@ -2,9 +2,9 @@ import React from "react";
 import styles from "./ServiceCard.module.css";
 import Image from "next/image";
 
-export default function ServiceCard({ title, description, image }) {
+export default function ServiceCard({ title, description, image, onClick }) {
   return (
-    <div className={styles.card}>
+    <div className={styles.card} onClick={() => onClick(title)}>
       <Image
         src={image}
         alt={title}
