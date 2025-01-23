@@ -3,6 +3,7 @@ import Head from "next/head";
 import HeroSection from "@/components/organisms/heroSection/HeroSection";
 import ServiceCardSection from "@/components/organisms/serviceCardSection/ServiceCardSection";
 import ServiceDetailsSection from "@/components/organisms/serviceDetailsSection/ServiceDetailsSection";
+import FooterSection from "@/components/organisms/footerSection/FooterSection";
 
 export default function HomePage() {
   const scrollToSection = (id) => {
@@ -18,9 +19,10 @@ export default function HomePage() {
         <title>Robbe Cleaning Services</title>
       </Head>
       <main>
-        <HeroSection />
+        <HeroSection onContactClick={() => scrollToSection("footer")} />
         <ServiceCardSection onCardClick={scrollToSection} />
         <ServiceDetailsSection />
+        <FooterSection />
       </main>
     </>
   );
