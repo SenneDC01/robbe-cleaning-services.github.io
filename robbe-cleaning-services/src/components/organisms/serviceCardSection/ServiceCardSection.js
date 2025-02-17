@@ -22,7 +22,7 @@ export default function ServiceCardSection({ onCardClick }) {
         <ServiceCard
           title="Osmose Reiniging"
           description="Reiniging met osmose voor een streeploos resultaat."
-          image="/osmosewasser.jfif"
+          image="/osmosewasser.jpg"
           onClick={() => onCardClick("osmose")}
         />
       </div>

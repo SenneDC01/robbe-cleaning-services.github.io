@@ -38,7 +38,7 @@ export default function ServiceDetailsSection() {
             blinkend schoon resultaat, maar beschermt ook je ramen en gevels
             tegen schade door agressieve schoonmaakmiddelen. Ideaal voor
             kantoren, winkels en woningen!"
-        image="/osmosewasser.jfif"
+        image="/osmosewasser.jpg"
       />
     </section>
   );
