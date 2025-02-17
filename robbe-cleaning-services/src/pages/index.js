@@ -16,6 +16,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
+        <link rel="icon" href="/favicon.png" sizes="any" />
         <title>Robbe Cleaning Services</title>
       </Head>
       <main>
